@@ -1,0 +1,17 @@
+{
+	"name": "ls_sqldb_nycpayroll",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "nycpayroll-server.database.windows.net",
+			"database": "db-nycpayroll",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "udacity",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFFRUM1QjZGLUQ3OTEtNDREMy1CNDJCLTY0MjE0NTg5QTlDQV8wMGVmYTUwOS02NmU4LTQyOGYtOGE4Ni1hMjZjY2E1ZWNjNjciDQp9"
+		}
+	}
+}

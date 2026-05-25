@@ -1,0 +1,15 @@
+{
+	"name": "adfactory-nycpayroll",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "824d5bec-6e18-4409-8c64-5c99059d8ac3",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
